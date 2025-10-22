@@ -9,11 +9,8 @@ yarn-debug.log*
 yarn-error.log*
 
 # Environment files
-.env
-.env.*
 
 # Editor/IDE
-.vscode/
 .idea/
 
 # OS files
@@ -42,3 +39,4 @@ backend/dist/
 # Misc
 *.swp
 *.swo
+config.bat

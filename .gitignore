@@ -29,8 +29,6 @@ Cargo.lock
 invoisio*
 
 # Env
-.env
-.env.local
 .env.*.local
 
 # Build
@@ -54,3 +52,4 @@ created-issues*.json
 # Generated soroban events — ignore these artifacts
 soroban/events.json
 soroban/events.txt
+config.bat

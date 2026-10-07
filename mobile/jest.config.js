@@ -26,16 +26,4 @@ module.exports = {
           moduleResolution: "node",
           jsx: "react-jsx",
         },
-      },
-    ],
-  },
-  testPathIgnorePatterns: ["<rootDir>/node_modules/"],
-  moduleNameMapper: {
-    "^@env$": "<rootDir>/__mocks__/env.ts",
-    "^react-native$": "<rootDir>/__mocks__/react-native.ts",
-    // Native expo modules pulled in by lib/ modules (auth-service,
-    // use-auth-store) are replaced with in-memory mocks so sync-coordinator
-    // and friends can be unit-tested without the jest-expo/RN preset.
-    "^expo-secure-store$": "<rootDir>/__mocks__/expo-secure-store.ts",
-  },
-};
+      },;
